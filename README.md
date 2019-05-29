@@ -15,9 +15,11 @@ You can also specify the resistor values with magnitudes such as K, M and G, but
 
 ## Example
 ![example circuit](http://media.cheggcdn.com/media/92b/92b56e64-0328-43c6-a50b-95044298a278/image)
+
 To solve this, we would split the circuit into series and parallell parts, so
 90 & (330 | (250 & ((1200 & 650) | (75 & 30 & 225 & 47 & 200 & 62)) & 675 & 50))
 we remove the spaces and pass it to the program
+
 ```
 resistorMath "90&(330|(250&((1200&650)|(75&30&225&47&200&62))&675&50))"
 ```
