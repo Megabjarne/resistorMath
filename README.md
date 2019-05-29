@@ -14,7 +14,7 @@ More complex arrangements can be done with paranthesis, say three 2 Ohm resistor
 You can also specify the resistor values with magnitudes such as K, M and G, but fractional resistance cannot be done, so 5500 Ohm cannot be given as 5.5K or 5K5, this will result in an error.
 
 ## Example
-![example circuit](http://media.cheggcdn.com/media/92b/92b56e64-0328-43c6-a50b-95044298a278/image)
+![example circuit](http://media.cheggcdn.com/media/92b/92b56e64-0328-43c6-a50b-95044298a278/image) <br />
 
 To solve this, we would split the circuit into series and parallell parts, so
 90 & (330 | (250 & ((1200 & 650) | (75 & 30 & 225 & 47 & 200 & 62)) & 675 & 50))
